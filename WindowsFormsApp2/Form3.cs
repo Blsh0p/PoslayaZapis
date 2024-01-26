@@ -7,10 +7,10 @@ using System.Data;
 using System.Data.Entity;
 namespace WindowsFormsApp2
 {
-    public partial class Form3 : Form
+    public partial class Perevod : Form
     {
         private bool isTranslated = false;
-        public Form3()
+        public Perevod()
         {
             InitializeComponent();
             Trans.Click += Trans_Click;
@@ -24,7 +24,7 @@ namespace WindowsFormsApp2
             string infixExp = Infix.Text;
 
             
-            if (Regex.IsMatch(infixExp, @"[\+\-\*\/\^\(\)]"))
+            if ((Regex.IsMatch(infixExp, @"[\+\-\*\/\^\(\)]")) && IsOperand(infixExp))
             {
                 string polishNotation = PolNot(infixExp);
                 Polsk.Text = polishNotation;
@@ -36,7 +36,12 @@ namespace WindowsFormsApp2
                 MessageBox.Show("Введите математическое выражение для перевода.", "Ошибка");
             }
         }
-
+        private bool IsOperand(string input)
+        {
+            char firstChar = input[0];
+            char lastChar = input[input.Length - 1];
+            return (char.IsLetterOrDigit(firstChar) || firstChar == '(') && (char.IsLetterOrDigit(lastChar) || lastChar == ')');
+        }
 
         public static int Prior(char op)
         {

@@ -33,10 +33,10 @@ C:\Users\Bishop\source\repos\kursovaya\WindowsFormsApp2\bin\Debug\System.Data.SQ
 C:\Users\Bishop\source\repos\kursovaya\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.AssemblyReference.cache
 C:\Users\Bishop\source\repos\kursovaya\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Авторизация.resources
 C:\Users\Bishop\source\repos\kursovaya\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form2.resources
-C:\Users\Bishop\source\repos\kursovaya\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Form3.resources
 C:\Users\Bishop\source\repos\kursovaya\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Properties.Resources.resources
 C:\Users\Bishop\source\repos\kursovaya\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.GenerateResource.cache
 C:\Users\Bishop\source\repos\kursovaya\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CoreCompileInputs.cache
 C:\Users\Bishop\source\repos\kursovaya\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.csproj.CopyComplete
 C:\Users\Bishop\source\repos\kursovaya\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.exe
 C:\Users\Bishop\source\repos\kursovaya\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.pdb
+C:\Users\Bishop\source\repos\kursovaya\WindowsFormsApp2\obj\Debug\WindowsFormsApp2.Perevod.resources

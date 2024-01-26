@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp2
 {
-    partial class Form3
+    partial class Perevod
     {
         /// <summary>
         /// Required designer variable.
@@ -73,7 +73,7 @@
             this.Save.TabIndex = 5;
             this.Save.Text = "Сохранить результат";
             this.Save.UseVisualStyleBackColor = true;
-            
+
             // 
             // Trans
             // 

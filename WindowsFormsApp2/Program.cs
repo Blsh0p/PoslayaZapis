@@ -166,7 +166,7 @@ namespace WindowsFormsApp2
 
         private void OpenMainForm()
         {
-            Form3 mainForm = new Form3();
+            Perevod mainForm = new Perevod();
             mainForm.FormClosed += MainForm_FormClosed;
             mainForm.Show();
             this.Hide();
